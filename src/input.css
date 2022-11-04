@@ -1,0 +1,61 @@
+.main{
+    background-color: aqua;
+    width: 700px;
+    margin: 0px 0px 0px 400px;
+    padding-bottom: 20px;
+    height: 300px;
+    /* border-radius: 20px; */
+    box-shadow: 20px 20px 20px;
+
+    
+}
+.mtwo{
+    padding: 20px ;
+}
+.input{
+display: block;
+
+}
+.uname, .email{
+    display: block;
+    
+   
+}
+.email input,.uname input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.email input{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.uname input{
+    margin-left: 18px;
+}
+button{
+    margin-top: 30px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    font-family: 'poppins';
+    
+    border-radius: 20px;
+    background-color: cornsilk;
+}
+button:hover{
+    border: 1px solid orange;
+    width: 510px;
+    height: 45px;
+    border-radius: 30px;
+    
+    
+}
+
+.input p{
+text-transform: uppercase;
+}
